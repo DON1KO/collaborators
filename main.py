@@ -28,3 +28,15 @@ class Danchik:
 
 D = Danchik('Danielchik')
 print(D.get_info()
+
+
+class kuba:
+    def __init__(self, name):
+        self.name = name
+
+    def get_info(self):
+        return self.name
+
+
+k = kuba('Kuba')
+print(k.get_info()
